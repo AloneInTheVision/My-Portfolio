@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Readable font */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    color: #000000; 
+    background-attachment: fixed;
+}
+
+section {
+    background-color: #f8f8f8;
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#profile {
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+#profile img.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+}
+
+#about p, #inspiration p {
+    text-align: justify;
+}
+
+#personal-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#personal-details th {
+    text-align: left;
+    padding: 10px;
+    background-color: #e0e0e0;
+    font-weight: bold;
+    width: 30%;
+}
+
+#personal-details td {
+    text-align: left;
+    padding: 10px;
+}
+
+#personal-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#skills li:hover {
+    background-color: #3498db;
+    color: #fff;
+}
